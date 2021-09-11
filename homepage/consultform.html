@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Consultation form
+        </title>
+        <link rel="stylesheet" type="text/css" href="consultform.css">
+    </head>
+    <body bgcolor="#175E59">
+        <div class="head">Consult Now</div>
+        <div class="whites"></div>
+        <form>    
+        <div class="immg">
+            <img src="..\images\misdoc.jpg">
+        </div>
+        <div class="formbox"> 
+
+        <div class="pName">
+        <label>Patient's Name</label>
+        <input type ="text" >
+        </div>
+
+        <div class="symptom">
+        <label>Tell us your Symptoms or Health problems </label>
+        <input type ="text" placeholder="Eg:Fever,Headache ">
+        
+        <h3> minimum 4 character</h3>
+        </div>
+
+        <div class="radiob">
+
+        <div class="opdb">
+        <input type="radio" name="butt" value="opd">
+        <label for="opd">OPD</label>
+        </div>
+        <div class="foll">
+        <input type="radio" name="butt" value="followup">
+        <label for="followup">Followup</label>
+        </div>
+         </div>
+
+        <div class="choose">
+         <p> Choose a Relavent Speciality </p>
+        </div>
+        <div class="optt">
+        <select name="fav colours">
+            <option  value="1">Pediatric</option>
+            <option value="1">Dietetian</option>
+            <option value="1">psyciatry</option>
+        </select>
+        </div>
+        
+        <div class="mobb">
+        <p>Mobile number</p>   
+        <input type="text" placeholder="enter your number">
+        </div>
+         
+        <div class="verin">
+            <p>A Verification Code will be sent to this number</p>   
+            <input type="text" placeholder="enter code">
+            </div>
+        <div class="submitb"><input type ="submit" value="Submit"></div>
+        
+        <div class="clearf"><input type="reset" value="lear form"></div>
+      
+    </div>  
+    </form>
+    </body>
+</html>

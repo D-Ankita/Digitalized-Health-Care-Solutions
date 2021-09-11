@@ -1,0 +1,126 @@
+*
+body{
+	margin: 0;
+	padding: 0;
+	font-family: serif;	
+	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)), url(doctorRegg.png);
+	background-size: cover;
+	background-position:  100%;	
+}
+
+header{
+	height: 100vh;
+  }
+
+.loginbox
+{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 400px;
+	height: 570px;
+	border-radius: 20px;
+	border-bottom: 1px solid #ddd;
+	background-color: white;
+	top: 50%;
+	left:76%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 60px 30px ;
+	position: absolute;
+	
+}
+
+ h3
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: center;
+  color: black;
+} 
+.avatar
+{
+	width:100px;
+	height: 100px; 
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px)
+}
+ 
+
+
+form input
+{
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: 1px solid grey;
+	border-bottom: 1px solid grey;
+	border-radius: 5px;
+	background: transparent;
+	outline: none;
+	height: 30px;
+	color: #000;
+	font-size: 14px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	margin-top: 60px;
+	height: 40px;
+	background: #1796a7;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+}
+
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: rgb(255, 255, 255);
+	color:  #1796a7;
+}
+.bottom input{
+	width:25%;
+	float: left;
+	font-size: 14px;
+	color:darkcyan;
+}
+.remember a {
+	float: left;
+	margin-top: 15px;
+	margin-left: -30px;
+	font-size: 14px;
+	color: rgb(131, 131, 131);
+}
+.remember input{
+	margin-top: 15px;
+}
+ .remember a:hover{
+	cursor: pointer;
+	color:  black;
+}
+
+
+.pass a{
+	margin-top: 15px;
+	float: right;
+	margin-right: 50px;
+	font-size: 14px;
+	color: rgb(131, 131, 131);
+}
+.pass a:hover{
+	cursor: pointer;
+	color:  black;
+}

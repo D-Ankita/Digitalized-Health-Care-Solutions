@@ -1,0 +1,137 @@
+*
+body{
+	margin: 0;
+	padding: 0;
+	font-family: serif;	
+	background-image:url(hippo.jpg);
+	background-size:cover;
+	background-position: center;
+}
+
+header{
+	
+	height: 100vh;
+	background-repeat: no-repeat;
+	
+	
+  }
+
+.loginbox
+{
+	width: 400px;
+	height: 420px;
+	border-radius: 20px;
+	border-bottom: 1px solid #ddd;
+	background:transparent;
+	color: #000;
+	top: 50%;
+	left: 75%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 60px 30px ;
+	box-shadow:8px 8px 50px rgb(196, 121, 87);
+}
+
+ h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 27px;
+	text-align: center;
+	color: rgb(88, 18, 5);
+} 
+
+.avatar
+{
+	width:150px;
+	height: 150px; 
+	border-radius: 50%;
+	position: absolute;
+	top: -60px;
+    left:130px
+}
+ 
+
+
+form input
+{
+	margin-top: 30px;
+	width: 100%;
+}
+
+
+
+.loginbox input[type="text"], input[type="password"]
+{
+	border: none;border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: rgb(49, 6, 6);
+	font-size: 14px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	margin-top: 50px;
+	height: 40px;
+	background: rgb(158, 62, 17);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 15px;
+}
+
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: rgb(255, 255, 255);
+	color:  #411805;
+}
+.bottom input{
+	width:"25%";
+	float: left;
+	margin-top: 15px;
+	font-size: 14px;
+	color:darkcyan;
+}
+.remember a {
+	float: left;
+	margin-top: 15px;
+	margin-right: 60px;
+	font-size: 14px;
+	color: rgb(131, 131, 131);
+}
+ .remember a:hover{
+	cursor: pointer;
+	color:  black;
+}
+
+
+.pass a{
+	margin-top: 15px;
+	float: right;
+	font-size: 14px;
+	color: rgb(131, 131, 131);
+}
+.pass a:hover{
+	cursor: pointer;
+	color:  black;
+}
+
+.signup a{
+	top: 1445px;
+	align-items: center;
+	font-size: 16px;
+	color: #411805;
+    margin-left: 95px;
+}
+
+.signup a:hover{
+	cursor:pointer;
+	color:rgb(126, 73, 73);
+}

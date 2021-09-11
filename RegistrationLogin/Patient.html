@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="patstyle.css">
+  
+</head>
+<body>
+  <header>
+  <div class="loginbox">
+       <img src="pat.png" class="avatar">
+       <h3> Register yourself as a Patient</h3>  
+       
+       <form method="POST">
+        <div >
+           <div>
+<div style="width: 48%;float: left;">
+<input type="text" name="firstname" placeholder="Enter firstname">
+</div>
+    <div style="width: 48%;float: right;">
+    <input type="text" name="lastname" placeholder="Enter lastname">
+    </div>
+    </div>
+    <div>
+   <div style="width: 48%;float: left;">
+   <input type="date" name="dob" placeholder="Enter D.O.B">
+   </div>
+   <div style=" width:48%; float: right;">
+        <input list="gender" name="gender" placeholder="Gender">
+        <datalist id="gender">
+        <option value="Male">
+        <option value="Female">
+        <option value="Other">
+        </datalist>
+        </div>
+        </div>
+        <input type="text" name="address" placeholder="Enter address">
+        <div>
+          <div style="width: 48%;float: left;">
+        <input type="text" name="email" placeholder="Enter Email-ID">
+</div>
+<div style="width: 48%;float: right;">
+<input type="text" name="mobile" placeholder="Enter Contact No.">
+</div>
+</div>
+<div>
+<div style="width: 48%;float: left;">
+<input type="password" name="password" placeholder="Enter password">
+</div>
+<div style="width: 48%;float: right;">
+<input type="password" name="confpassword" placeholder="Confirm password">
+</div>
+</div>
+<br> 
+<input type="submit" name="submit" value="SIGN-UP">
+<br>
+</div>
+</form>
+
+     
+        <div class="bottom">
+          <div class="remember"> <input type="checkbox" name="Remember" checked="checked"><a href="#">Remember me</a>
+          </div>
+          <div class="pass"><a href="#">Forgot Password</a>
+          </div>
+          
+        </div>
+      </div>
+  </header>
+</body>
+</html>
+

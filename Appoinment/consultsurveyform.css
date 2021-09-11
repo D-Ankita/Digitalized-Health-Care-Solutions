@@ -1,0 +1,94 @@
+
+*body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+    background-color: #175E59;
+    }
+    .immg img{
+
+position: absolute;
+width: 358px;
+height: 317px;
+margin-left: 695px;
+margin-top: 190px;
+    }
+
+    .head{
+    
+       /* Doctor will be joining Shortly */
+
+position: absolute;
+width: 345px;
+height: 25px;
+left: 455px;
+top: 148px;
+
+font-family: Epilogue;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+
+color: #128D86;
+
+
+    }
+    
+    .whites{
+    
+       /* Rectangle 142 */
+
+position: absolute;
+width: 768px;
+height: 477px;
+left: 194px;
+top: 110px;
+
+background: #FFFFFF;
+box-shadow: 4px 6px 12px 2px rgba(222, 70, 70, 0.25);
+    }
+   
+.formbox label{
+/* Join the meet via link below */
+
+position: absolute;
+width: 252px;
+height: 18px;
+left: 296px;
+top: 257px;
+
+font-family: Epilogue;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+display: flex;
+align-items: flex-end;
+
+color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+.formbox input{
+
+position: absolute;
+width: 140px;
+height: 48px;
+left: 296px;
+top: 335px;
+
+background: #00978E;
+
+
+}
+
+.formbox input:hover{
+    cursor:pointer;
+    transform: scale(1.3);
+}

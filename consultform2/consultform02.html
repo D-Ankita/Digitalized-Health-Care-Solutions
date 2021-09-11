@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Consultation form
+        </title>
+        <link rel="stylesheet" type="text/css" href="consultform02.css">
+    </head>
+    <body bgcolor="#175E59">
+        
+        <div class="whites"></div>
+        <form>  
+        <div class="head">Kindly Fill this to get precise Consultation</div>  
+        <div class="immg">
+            <img src="C:\Users\SHUBHAM\Desktop\consultform2\puzzle.jpg">
+        </div>
+        <div class="formbox"> 
+            <label>Consultation via -</label></div>
+        <div class="ccall">
+        
+        <input type ="radio" value="callc">
+        <label for="callc">Call</label>
+        </div>
+            <div class="vcall">
+            <input type ="radio" value="callv">
+            <label for="callv">VideoCall</label>
+            </div>
+                <div class="cchat">
+                <input type ="radio" value="chatc">
+                <label for="chatc">Chat</label>
+                </div>
+            
+                <div class="gender1">
+                    <p> Consultant</p>
+                    <input type ="radio" value="gender">
+                    <label for="female">Female Doctor</label>
+                    </div>
+                        <div class="gender2">
+                        <input type ="radio" value="gender">
+                        <label for="male">Male Doctors</label>
+                        </div>
+        
+
+        <div class="symptom">
+        <label>Describe your Symptoms or Health problems </label>
+        <input type ="textbox" placeholder="Eg:Fever,Headache ">
+        
+        </div>
+         
+        <div class="verin">
+            <p>Since when are you experiencing above Symptoms</p>   
+            <div class="datee">
+                <input type="datetime-local" id="send" onclicl="result.value=send.value">
+                </div>
+            </div>
+        <div class="submitb"><input type ="submit" value="Submit"></div>
+        
+        <div class="clearf"><input type="reset" value="Clear form"></div>
+      
+    </div>  
+    </form>
+    </body>
+</html>

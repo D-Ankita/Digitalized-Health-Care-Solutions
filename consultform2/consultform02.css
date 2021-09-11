@@ -1,0 +1,352 @@
+
+*body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+    background-color: #175E59;
+    }
+    .immg img{
+    /* image 58 */
+    
+    position: absolute;
+    width:441px;
+    height: 294px;
+    left: 686px;
+    top: 195px;
+    
+    
+    border-radius: 2;
+    }
+    
+    .head{
+    
+position: absolute;
+width: 596px;
+height: 25px;
+left: 461px;
+top: 123px;
+
+font-family: Epilogue;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 25px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #128D86;
+    }
+
+    
+    .whites{
+    
+        position: absolute;
+        width: 868px;
+        height: 449px;
+        left: 274px;
+        top: 110px;
+        
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        }
+    .formbox label{
+ 
+position: absolute;
+width: 165px;
+height: 17px;
+left: 333px;
+top: 178px;
+
+font-family: Epilogue;
+font-style: normal;
+font-weight: bolder;
+font-size: 17px;
+line-height: 17px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+
+    }
+        .ccall label{
+    
+position: absolute;
+width: 165px;
+height: 17px;
+left: 363px;
+top: 199px;
+font-family: Epilogue;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 17px;
+display: flex;
+align-items: flex-end;
+color: #000000;
+
+
+        }
+    
+    
+    
+    .ccall input[type="radio"]
+    {
+position: absolute;
+width: 14px;
+height: 14px;
+left: 339px;
+top: 199px;
+border: 1px solid #000000;
+box-sizing: border-box;
+     
+    }
+    
+    
+    .vcall label{
+        position: absolute;
+        width: 88px;
+        height: 17px;
+        left: 472px;
+        top: 199px;
+        
+        font-family: Epilogue;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        
+        color: #000000;
+    }
+    
+    .vcall input[type="radio"]
+    {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 450px;
+        top: 199px;
+        
+        border: 1px solid #000000;
+        box-sizing: border-box;}
+
+    .cchat label
+    {
+        position: absolute;
+        width: 88px;
+        height: 17px;
+        left: 621px;
+        top: 199px;
+        
+        font-family: Epilogue;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        
+        color: #000000;
+    }
+    
+    .cchat input[type="radio"]{
+    
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 599px;
+        top: 199px;
+        
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+    .gender1 p{
+        position: absolute;
+        width: 165px;
+        height: 17px;
+        left: 333px;
+        top: 210px;
+        
+        font-family: Epilogue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        
+        color: #000000;
+        
+    }
+    
+    .gender1 label{
+        position: absolute;
+        width: 143px;
+        height: 17px;
+        left: 369px;
+        top: 250px;
+        
+        font-family: Epilogue;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        
+        color: #000000;
+    
+    }
+    .gender1 input[type="radio"]{
+        position: absolute;
+width: 11.08px;
+height: 12px;
+left: 347px;
+top: 250px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+        
+    }
+    .gender2 label{
+ position: absolute;
+width: 138px;
+height: 17px;
+left: 571px;
+top: 250px;
+
+font-family: Epilogue;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 17px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+        
+        }
+    
+        .gender2 input[type="radio"]{
+            position: absolute;
+            width: 11.08px;
+            height: 12px;
+            left: 549px;
+            top: 250px;
+            
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            
+        }
+        .symptom label{
+            position: absolute;
+width: 422px;
+height: 17px;
+left: 333px;
+top: 280px;
+
+font-family: Epilogue;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 17px;
+display: flex;
+align-items: flex-end;
+
+color: #000000;
+        }
+      .symptom input[type="textbox"]{
+position: absolute;
+width: 378px;
+height: 62px;
+left: 335px;
+top: 300px;
+border: 0;
+background: #F5F5F5;
+      }
+    
+    
+    .verin p{
+        position: absolute;
+        width: 481px;
+        height: 17px;
+        left: 333px;
+        top: 365px;
+        
+        font-family: Epilogue;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 17px;
+        display: flex;
+        align-items: flex-end;
+        
+        color: #000000;
+    }
+
+    .datee input[type="datetime-local"]{
+
+position: absolute;
+width: 167px;
+height: 24px;
+left: 333px;
+top:410px;
+border: 1px solid rgba(0, 0, 0, 0.43);
+box-sizing: border-box;
+
+    }
+    
+    
+    
+    .submitb input{
+    position: absolute;
+    width: 127.43px;
+    height: 40px;
+    left: 337.46px;
+    top:500px;
+    
+    background: #175E59;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: Epilogue;
+    font-style: normal;
+    
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    }
+
+    .submitb input:hover{
+        background:#ced1d1;
+        color: #175E59;
+    }
+    
+    .clearf input{
+        /* Rectangle 150 */
+    
+    position: absolute;
+    width: 127.43px;
+    height:40px;
+    left: 507px;
+    top: 500px;
+    
+    border: 2px solid #175E59;
+    box-sizing: border-box;
+    color: #175E59;
+    font-weight: bolder;
+    font-family: Epilogue;
+    font-style: normal;
+    
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    }
+
+
+    
+      
+     
+   
